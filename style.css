@@ -82,12 +82,12 @@ p {
 .cat {
     width: 100%;
     /* margin: 10px 0; */
-    paddding: 1rem;
+    padding: 1rem;
     transition: width 0.4s ease;
 }
 
 .letter-window.final .cat {
-    width: 180px;
+    width: 100%;
 }
 
 /* buttons */
@@ -103,14 +103,14 @@ p {
 }
 
 .btn {
-    width: 120px;
+    width: 100%;
     cursor: pointer;
     user-select: none;
 }
 
 .yes-btn,
 .no-btn {
-width: 120px;
+width: 100%;
 height: auto;
 display: inline-block;
 }
@@ -130,7 +130,7 @@ display: inline-block;
 }
 
 .final-text{
-    font-size: 22px;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
     line-height: 1.4;
     text-align: center;
     display: inline-block;
@@ -142,5 +142,5 @@ display: inline-block;
 img, video {
   max-width: 100%;
   height: auto;
-  display: block;
+  display: flex;
 }
