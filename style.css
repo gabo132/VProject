@@ -80,21 +80,13 @@ p {
 /* Cat */
 
 .cat {
-    /*
     width: 250px;
     margin: 10px 0;
     transition: width 0.4s ease;
-    */
-    max-width: 50%;
-    height: auto;
-    display: block;
 }
 
 .letter-window.final .cat {
-    /* width: 180px; */
-    max-width: 100%;
-    height: auto;
-    display: block;
+    width: 180px;
 }
 
 /* buttons */
