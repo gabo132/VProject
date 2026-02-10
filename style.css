@@ -91,7 +91,10 @@ p {
 }
 
 .letter-window.final .cat {
-    width: 180px;
+    /* width: 180px; */
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* buttons */
