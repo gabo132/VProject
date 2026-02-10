@@ -22,7 +22,7 @@ envelope.addEventListener("click", () => {
 
 // Logic to move the NO btn
 
-noBtn.addEventListener("on", ('touchstart') => {
+noBtn.addEventListener("mouseover", () => {
     const min = 200;
     const max = 200;
 
