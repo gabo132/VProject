@@ -87,7 +87,7 @@ p {
 }
 
 .letter-window.final .cat {
-    width: 100%;
+    width: 180px;
 }
 
 /* buttons */
@@ -103,14 +103,14 @@ p {
 }
 
 .btn {
-    width: 100%;
+    width: 120px;
     cursor: pointer;
     user-select: none;
 }
 
 .yes-btn,
 .no-btn {
-width: 100%;
+width: 120px;
 height: auto;
 display: inline-block;
 }
@@ -130,7 +130,7 @@ display: inline-block;
 }
 
 .final-text{
-    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    font-size: 22px;
     line-height: 1.4;
     text-align: center;
     display: inline-block;
